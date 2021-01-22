@@ -1,0 +1,99 @@
+body {
+  margin: 20px 0px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top:0;
+  z-index: 10000;
+}
+
+/* Style the navbar */
+nav {
+  background-color: olive; 
+  width: 100%;
+  height: 50px;
+  margin: 0px;
+  display:block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav .nav-left li,.nav-right li {
+  display: inline-block;
+  font-size: 5px;
+  padding: 5px;
+}
+
+.nav-left {
+  float: left;
+  padding-left: 15px;
+}
+
+.nav-right {
+ float: right;
+ padding-right: 15px;
+}
+
+.nav-middle {
+  padding-right: 100px;
+  padding-left: 150px;
+}
+
+/* Navbar links */ /*forgotPasword link*/
+nav a,.forgotPassword a{
+  text-decoration: none;
+  color: black;
+}
+
+/* Navbar links hovre */ /*forgotPasword link*/
+nav a:hover,.forgotPassword a:hover{
+  text-decoration: underline;
+}
+
+/* Contents */
+section {
+  padding-top: 60px;
+  margin: 10px 200px;
+}
+
+.loginSection,.acountSection {
+  margin: 30px 100px;
+}
+
+label {
+  display: block;
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+input.inputcontents{
+  font-size: 100%;
+  border: 1px solid #777;
+  padding: 0 6px;
+  width: 45%;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.text-center,.forgotPassword,h2,p {
+  text-align: center;
+}
+
+p,.forgotPassword a {
+  font-size: 5px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: 1px solid #000;
+  font-size: 10px;
+  padding: 10px 50px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
